@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	background-color: #dddddd;
+	font-family: "Lucida Console", monospace, sans-serif;
+}
+
+.header {
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.name {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#name {
+	width: 120px;
+	height: 30px;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+#name2 {
+	width: 120px;
+	height: 30px;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+.submit-button {
+	height: 35px;
+	width: 200px;
+	display: block;
+	margin: 20px auto 0 auto;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: 800px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.game-board-container {
+	display: grid;
+	font-size: 30px;
+	width: 200px;
+	height: 200px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	margin-top: 70px;
+}
+
+.hidden {
+	display: none;
+}
+
+.square {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.square0 {
+	border: 1px solid black;
+}
+
+.square1 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.square2 {
+	border: 1px solid black;
+}
+
+.square3 {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.square4 {
+}
+
+.square5 {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.square6 {
+	border: 1px solid black;
+}
+
+.square7 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.square8 {
+	border: 1px solid black;
+}
