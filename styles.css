@@ -71,6 +71,12 @@ body {
 	justify-content: center;
 }
 
+.square:hover {
+	transform: scale(1.2, 1.2);
+	background: #f5a962;
+	border: 2px solid black;
+}
+
 .square0 {
 	border: 1px solid black;
 }
